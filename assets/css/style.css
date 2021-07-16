@@ -1,0 +1,140 @@
+.body{
+    background-color: var(--bgSite);
+}
+.container{
+    margin:auto;
+    max-width: 1309.29px;
+    background-color: var(--bgSite);
+}
+
+.header__logo, .header__paragrafo {
+    color: var(--corPrincipal)
+}
+.header__logo{
+    padding-top: 20px;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.header__paragrafo{
+    font-size: 80px;
+    padding-left: 100px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+.main{
+    margin: 0 auto;
+}
+.main__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__button{
+    margin-top: 70px;
+    background-color: var(--corPrincipal);
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px;
+    font-size: 100px;
+    width:361.82px;
+    height:145.7px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.main__chevron{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 90px;
+    padding-right: 100px;
+}
+.sobre{
+    margin: auto;
+}
+.sobre__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.sobre__propaganda{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+    padding-right: 80px;
+}
+.sobre__perfect{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 80px;
+    margin-bottom: 100px;
+}
+.sobre__card{
+    background-color: var(--corPrincipal);
+    width: 382.56px;
+    height: 369.11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sobre__card--perfect{
+    width: 574.21px;
+    height: 554.02px;
+    cursor: pointer;
+}
+.sobre__titulo{
+    font-size: 50px;
+  
+}
+.sobre__titulo--perfect{
+    font-size: 150px;
+    text-align: center;
+}
+.sobre__subtitulo__perfect{
+    font-size: 30px;
+}
+.sobre__card--central{
+    background-color: #fff;
+    width: 382.56px;
+    height: 369.11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.social__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.fa{
+    padding-top: 10px;
+    color:  var(--bgSite);
+    background-color: #fff;
+    font-size: 80px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom:90px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__paragrafo{
+    font-size: 20px;
+    color:#fff;
+}
